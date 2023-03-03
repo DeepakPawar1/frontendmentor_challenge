@@ -1,0 +1,18 @@
+.cardParent .cardser {
+    display:flex;
+    /* justify-content: flex-start; */
+    /* flex-direction: column;
+    background-color: lawngreen; */
+}
+
+.cardParent{
+    margin-top: 2.5rem;
+}
+
+
+@media screen and (max-width: 720px) {
+    .cardParent .cardser {
+        display:flex;
+        flex-direction: column;
+    }
+}
